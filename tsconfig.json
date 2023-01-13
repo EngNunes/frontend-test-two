@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
     "lib": [
       "dom",
@@ -17,7 +18,24 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "paths": {
+      "@components":[
+        "components"
+      ],
+      "@atomic":[
+        "atomic"
+      ],
+      "@atomic/*":[
+        "atomic/*"
+      ],
+      "@page":[
+        "page"
+      ],
+      "@page/*":[
+        "page/*"
+      ]
+    }
   },
   "include": [
     "next-env.d.ts",

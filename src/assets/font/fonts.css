@@ -1,0 +1,26 @@
+/*Roboto*/
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./roboto/Roboto-Light.ttf");
+  src: url("./roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./roboto/Roboto-Regular.ttf");
+  src: url("./roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./roboto/Roboto-Bold.ttf");
+  src: url("./roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
